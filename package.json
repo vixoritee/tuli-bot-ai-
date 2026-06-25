@@ -1,0 +1,30 @@
+{
+  "name": "tulibot",
+  "version": "2.0.0",
+  "description": "Aplikasi web aksesibilitas untuk komunikasi tunarungu",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "tunarungu",
+    "speech-to-text",
+    "text-to-speech",
+    "ai-assistant",
+    "sign-language"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.19.0",
+    "mysql2": "^3.6.0",
+    "node-fetch": "^2.7.0",
+    "openai": "^6.44.0"
+  }
+}
